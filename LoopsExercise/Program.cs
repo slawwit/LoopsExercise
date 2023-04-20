@@ -32,6 +32,10 @@ namespace LoopsExercise
                     Exercise4 exercise4 = new Exercise4();
                     exercise4.PrintingNumbers();
                     break;
+                case 5:
+                    Exercise5 exercise5 = new Exercise5();
+                    exercise5.Exponentiation();
+                    break;
 
                 default:
                     Console.WriteLine("Wybierz poprawny numer zadania!");
