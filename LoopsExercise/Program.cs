@@ -26,7 +26,7 @@ namespace LoopsExercise
                     break;
                 case 3:
                     Exercise3 exercise3 = new Exercise3();
-                    exercise3.Leniuch();
+                    exercise3.Fibonacci();
                     break;
                 case 4:
                     Exercise4 exercise4 = new Exercise4();

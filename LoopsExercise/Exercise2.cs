@@ -25,11 +25,5 @@ namespace LoopsExercise
             while (a < 1001);
 
         }
-
-        public void Leniuch()
-        {
-            Console.WriteLine("W toku [brak czasu:) ]");
-
-        }
     }
 }
