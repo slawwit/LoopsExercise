@@ -24,7 +24,7 @@ namespace LoopsExercise
                     }
                     else
                     {
-                        Console.Write(num);
+                        Console.Write(num + " ");
                         num++;
                     }
                 }

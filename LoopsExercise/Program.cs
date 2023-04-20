@@ -11,12 +11,14 @@ namespace LoopsExercise
             Console.WriteLine("2: Zadanie_2 ");
             Console.WriteLine("3: Zadanie_3 ");
             Console.WriteLine("4: Zadanie_4 ");
+            Console.WriteLine("------------------------");
             int option = int.Parse(Console.ReadLine());
+            Console.WriteLine("------------------------");
             switch (option)
             {
                 case 1:
                     Exercise1 exercise1 = new Exercise1();
-                    exercise1.Leniuch();
+                    exercise1.PrimeNumbers();
                     break;
                 case 2:
                     Exercise2 exercise2 = new Exercise2();
