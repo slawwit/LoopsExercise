@@ -11,6 +11,7 @@ namespace LoopsExercise
             Console.WriteLine("2: Zadanie_2 ");
             Console.WriteLine("3: Zadanie_3 ");
             Console.WriteLine("4: Zadanie_4 ");
+            Console.WriteLine("5: Zadanie_5 ");
             Console.WriteLine("------------------------");
             int option = int.Parse(Console.ReadLine());
             Console.WriteLine("------------------------");
