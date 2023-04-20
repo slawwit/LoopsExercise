@@ -12,6 +12,7 @@ namespace LoopsExercise
             Console.WriteLine("3: Zadanie_3 ");
             Console.WriteLine("4: Zadanie_4 ");
             Console.WriteLine("5: Zadanie_5 ");
+            Console.WriteLine("6: Zadanie_6 ");
             Console.WriteLine("------------------------");
             int option = int.Parse(Console.ReadLine());
             Console.WriteLine("------------------------");
@@ -36,6 +37,10 @@ namespace LoopsExercise
                 case 5:
                     Exercise5 exercise5 = new Exercise5();
                     exercise5.Exponentiation();
+                    break;
+                case 6:
+                    Exercise6 exercise6 = new Exercise6();
+                    exercise6.StrangeSum();
                     break;
 
                 default:
