@@ -22,7 +22,7 @@ namespace LoopsExercise
                     break;
                 case 2:
                     Exercise2 exercise2 = new Exercise2();
-                    exercise2.Leniuch();
+                    exercise2.EvenNubers();
                     break;
                 case 3:
                     Exercise3 exercise3 = new Exercise3();
