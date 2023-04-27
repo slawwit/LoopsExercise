@@ -15,6 +15,7 @@ namespace LoopsExercise
             Console.WriteLine("6: Zadanie_6 ");
             Console.WriteLine("7: Zadanie_7 ");
             Console.WriteLine("8: Zadanie_8 ");
+            Console.WriteLine("9: Zadanie_9 ");
             Console.WriteLine("------------------------");
             int option = int.Parse(Console.ReadLine());
             Console.WriteLine("------------------------");
@@ -51,6 +52,10 @@ namespace LoopsExercise
                 case 8:
                     Exercise8 exercise8= new Exercise8();
                     exercise8.ReverseString();
+                    break; 
+                case 9:
+                    Exercise9 exercise9= new Exercise9();
+                    exercise9.ConvertToBinary();
                     break;
 
                 default:
