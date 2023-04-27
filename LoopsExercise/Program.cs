@@ -56,6 +56,10 @@ namespace LoopsExercise
                 case 9:
                     Exercise9 exercise9= new Exercise9();
                     exercise9.ConvertToBinary();
+                    break; 
+                case 10:
+                    Exercise10 exercise10= new Exercise10();
+                    exercise10.Nww();
                     break;
 
                 default:
